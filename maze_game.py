@@ -244,8 +244,9 @@ class MazeGameApp:
             self.solution_path = path_nodes
             self.start_animation()
 
-        except Exception as e:
-            messagebox.showerror("Execution Error", str(e))
+            pass
+
+        
 
     # ---------------- Animation ----------------
     def start_animation(self):
